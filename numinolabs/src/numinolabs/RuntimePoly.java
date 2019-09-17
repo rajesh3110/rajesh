@@ -53,6 +53,8 @@ public class RuntimePoly {
 		R r1=new A();
 		System.out.println(r1.g());
 		
+		System.out.println(r1 instanceof A);
+		
 		
 	}
 	
