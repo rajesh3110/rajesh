@@ -4,6 +4,12 @@ import java.util.Scanner;
 
 public class AlterMerge {
 	
+	
+	public void show()
+	{
+		System.out.println("From numinoLabs PAckage and Altermerge class and Show method::000");
+	}
+	
 	public static void main(String args[])
 	{
 		Scanner sc=new Scanner(System.in);
@@ -15,7 +21,7 @@ public class AlterMerge {
 		int n1=a.length;
 		int n2=b.length;
 		int k = 0; 
-	
+	   
 		
 		int c[]=new int[n1+n2];
 		for(int i=0;i<n1;i++)
