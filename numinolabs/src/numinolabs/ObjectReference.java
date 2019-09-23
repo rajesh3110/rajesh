@@ -15,7 +15,8 @@ public class ObjectReference {
 		
 		  Scanner sc=new Scanner(System.in);
 		  int a=10;
-		  int re=a++ + ++a;
+		  int re=a++
+				  + ++a;
 		  System.out.println(re);
 		  ObjectReference r1=new ObjectReference();
 		  r1.ma("RAJESH");
